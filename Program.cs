@@ -39,21 +39,21 @@
                             {
                                 Console.WriteLine($"Youth Price: 80kr."); // Display the youth price
                             }
-                            else if (age > 20 && age <= 63) // If the user is 64 or older, they are considered a pensioner
+                            else if (age > 20 && age <= 63) 
                             {
-                                Console.WriteLine($"Adult & Standard Price: 120kr"); // Display the pensioner price
+                                Console.WriteLine($"Adult & Standard Price: 120kr"); // Display the standard price
                             }
                             else if (age >= 64 && age <= 100) // If the user is 64 or older, they are considered a pensioner
                             {
                                 Console.WriteLine($"Pensioner price: SEK 90"); // Display the pensioner price
                             }
-                            else if (age >= 0 && age < 5 || age > 100) // If the user is 64 or older, they are considered a pensioner
+                            else if (age >= 0 && age < 5 || age > 100) 
                             {
-                                Console.WriteLine($"Free Entry."); // Display the pensioner price
+                                Console.WriteLine($"Free Entry."); 
                             }
-                            else // If the user is between 21 and 63, they are considered an adult
+                            else 
                             {
-                                Console.WriteLine($"Invalid age, please try again."); // Display the adult price
+                                Console.WriteLine($"Invalid age, please try again."); 
                             }
                         }
                         
